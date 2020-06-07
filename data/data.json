@@ -1,0 +1,111 @@
+{
+  "slider": [{
+      "slug": "aquaman",
+      "titulo": "Aquaman",
+      "sinopsis": "Arthur Curry learns that he is the heir of the underwater kingdom of Atlantis. This will become Aquaman, the emperor of Atlantis, committed to defending the entire planet, both on land and in the seas.",
+      "imagen_banner": "./image/banner-aquaman.jpg"
+    },
+    {
+      "slug": "bumblebee",
+      "titulo": "Bumblebee",
+      "sinopsis": "Lorem ipsum",
+      "imagen_banner": "./image/banner-bumblebee.jpg"
+    },
+    {
+      "slug": "venom",
+      "titulo": "Venom",
+      "sinopsis": "Lorem ipsum",
+      "imagen_banner": "./image/banner-venom.png"
+    }
+  ],
+  "peliculas": [{
+      "slug": "bohemian-rhapsody",
+      "titulo": "Bohemian Rhapsody",
+      "sinopsis": "Lorem ipsum",
+      "imagen_portada": "./image/bohemian-rhapsody.jpg",
+      "lanzamiento": false,
+      "popular": true,
+      "tendencia": true,
+      "favoritos": true,
+      "recomendado": false
+    },
+    {
+      "slug": "han-solo",
+      "titulo": "Han Solo",
+      "sinopsis": "Lorem ipsum",
+      "imagen_portada": "./image/han-solo.jpg",
+      "lanzamiento": false,
+      "popular": true,
+      "tendencia": true,
+      "favoritos": true,
+      "recomendado": false
+    },
+    {
+      "slug": "first-man",
+      "titulo": "First Man",
+      "sinopsis": "Lorem ipsum",
+      "imagen_portada": "./image/first-man.jpg",
+      "lanzamiento": false,
+      "popular": true,
+      "tendencia": false,
+      "favoritos": false,
+      "recomendado": false
+    },
+    {
+      "slug": "deadpool",
+      "titulo": "Deadpool",
+      "sinopsis": "Lorem ipsum",
+      "imagen_portada": "./image/deadpool.png",
+      "lanzamiento": true,
+      "popular": false,
+      "tendencia": false,
+      "favoritos": true,
+      "recomendado": false
+
+    },
+    {
+      "slug": "avengers-infinity-war",
+      "titulo": "Avengers Infinity War",
+      "sinopsis": "Lorem ipsum",
+      "imagen_portada": "./image/avengers-infinity-war.jpg",
+      "lanzamiento": true,
+      "popular": true,
+      "tendencia": false,
+      "favoritos": true,
+      "recomendado": false
+    },
+    {
+      "slug": "venom",
+      "titulo": "Venom",
+      "sinopsis": "Lorem ipsum",
+      "imagen_portada": "./image/venom.jpg",
+      "lanzamiento": true,
+      "popular": true,
+      "tendencia": false,
+      "favoritos": false,
+      "recomendado": false
+    },
+    {
+      "slug": "jurassic-world",
+      "titulo": "Jurassic World",
+      "sinopsis": "Lorem ipsum",
+      "imagen_portada": "./image/jurassic-world.jpg",
+      "lanzamiento": true,
+      "popular": false,
+      "tendencia": false,
+      "favoritos": false,
+      "recomendado": false
+    },
+    {
+      "slug": "incredibles",
+      "titulo": "Incredibles",
+      "sinopsis": "Lorem ipsum",
+      "imagen_portada": "./image/incredibles.jpg",
+      "lanzamiento": true,
+      "popular": true,
+      "tendencia": true,
+      "favoritos": false,
+      "recomendado": true
+    }
+  ]
+}

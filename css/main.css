@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+/* Theme Name: Plugin
+ * Author: Alejandra Zerda Guzman
+ * Web: https://alejandrazerda.com
+ * Version: 0.1.1
+License: GNU General Public License  */
+/*------------------------------------------------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.white {
+  color:#fff;
+}
+
+/*Bonotes*/
+button {
+  text-transform: uppercase;
+  font-size: 1.1em !important;
+  font-weight: 600 !important;
+  padding: .5rem 2.75rem !important ;
+  border-radius: 0px !important;
+  margin-right: 10px !important;
+}
+ button.amarillo {
+  background-color: #FCE631;
+  color: #000000;
+}
+button.blanco {
+  background-color: transparent ;
+  border-color: #ffffff;
+  color: #FFFFFF;
+}
+/*Tipografia*/
+.title {
+  text-transform: uppercase;
+  margin-bottom: 1.75em;
+  font-weight: 600;
+}
+#cartelera .title {
+  text-align: center;
+  width: 100%;
+  padding: 0 10px;
+}
+/*******************/
+.navbar{
+  padding: 0rem 1rem;
+}
+.navbar .container , .container {
+  max-width: 75%
+}
+.navbar-brand img{
+      max-height: 45px;
+}
+/*Menu*/
+#menu .navbar-nav {
+  height: 76px;
+}
+.navbar-nav button {
+    padding: 0 2.25em;
+    background-color: #eee;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-nav .nav-item{
+  padding: 0 .5em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#menu  .navbar-nav .nav-item.active, #menu  .navbar-nav .nav-item:hover{
+    background-color: #FCE631;
+}
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: rgba(0,0,0,1) !important;
+}
+.navbar-light .navbar-nav .nav-item:focus .nav-link, .navbar-light .navbar-nav .nav-item:hover .nav-link {
+    color: rgba(0,0,0,1);
+}
+
+.navbar-right{
+  justify-content: flex-end;
+}
+/******/
+/*Slider Home*/
+.carousel-item {
+  height: 75vh;
+  background-size: cover;
+  background-position: center right;
+  max-width: 100%;
+}
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-item .row{
+  height: 100%;
+}
+.container-text-slider{
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 2%;
+}
+
+.container-text-slider .title {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8%;
+}
+.container-text-slider p {
+  font-size: 1.2em;
+line-height: 1.25em;
+  margin-bottom: 8%;
+}
+
+.carousel-indicators {
+  bottom: 13px;
+  left: initial;
+  margin-right: 11%;
+}
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  position: relative;
+  padding: 6px;
+  border-radius: 100px;
+  border: 1px solid rgba(0,0,0,0);
+  opacity: 1;
+}
+.carousel-indicators li:hover, .carousel-indicators li.active{
+  border-color: #FCE631;
+}
+.carousel-indicators li.active::after ,.carousel-indicators li:hover::after {
+  background-color: #FCE631 !important;
+}
+.carousel-indicators li::after {
+  content: '';
+  position: absolute;
+  left: calc(50% - 4px);
+  top: calc(50% - 4px);
+  background-color: #ffffff;
+  width: 8px;
+  height: 8px;
+  border-radius: 100px;
+}
+/*Buscador*/
+.buscador .navbar-nav .nav-link{
+  text-transform: capitalize;
+  font-size: 1.2em;
+  position: relative;
+}
+.buscador .nav-item.active , .buscador .nav-item:hover{
+  border-bottom: 2px solid #000000;
+}
+.fila-filtro {
+  position: relative;
+  z-index: 9999;
+}
+.buscador .nav-item.active .nav-link::after, .buscador .nav-item:hover .nav-link::after{
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #000;
+  bottom: -8px;
+  right: calc(50% - 8px);
+}
+
+.item {
+  display: block;
+  float: left;
+  width: 23%;
+  height: 517px;
+  background-size: cover;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  background-color: rgba(0,0,0,0.3);
+}
+.fondo{
+  opacity: 0;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  flex-flow: wrap;
+  transition: opacity 0.3s ease-in;
+}
+.item:hover .fondo{
+  opacity: 1;
+}
+
+.item button {
+      margin-bottom: 15px;
+}
