@@ -3,26 +3,26 @@
       "slug": "aquaman",
       "titulo": "Aquaman",
       "sinopsis": "Arthur Curry learns that he is the heir of the underwater kingdom of Atlantis. This will become Aquaman, the emperor of Atlantis, committed to defending the entire planet, both on land and in the seas.",
-      "imagen_banner": "./image/banner-aquaman.jpg"
+      "imagen_banner": "assets/image/banner-aquaman.jpg"
     },
     {
       "slug": "bumblebee",
       "titulo": "Bumblebee",
       "sinopsis": "Lorem ipsum",
-      "imagen_banner": "./image/banner-bumblebee.jpg"
+      "imagen_banner": "assets/image/banner-bumblebee.jpg"
     },
     {
       "slug": "venom",
       "titulo": "Venom",
       "sinopsis": "Lorem ipsum",
-      "imagen_banner": "./image/banner-venom.png"
+      "imagen_banner": "assets/image/banner-venom.png"
     }
   ],
   "peliculas": [{
       "slug": "bohemian-rhapsody",
       "titulo": "Bohemian Rhapsody",
       "sinopsis": "Lorem ipsum",
-      "imagen_portada": "./image/bohemian-rhapsody.jpg",
+      "imagen_portada": "assets/image/bohemian-rhapsody.jpg",
       "lanzamiento": false,
       "popular": true,
       "tendencia": true,
@@ -33,7 +33,7 @@
       "slug": "han-solo",
       "titulo": "Han Solo",
       "sinopsis": "Lorem ipsum",
-      "imagen_portada": "./image/han-solo.jpg",
+      "imagen_portada": "assets/image/han-solo.jpg",
       "lanzamiento": false,
       "popular": true,
       "tendencia": true,
@@ -44,7 +44,7 @@
       "slug": "first-man",
       "titulo": "First Man",
       "sinopsis": "Lorem ipsum",
-      "imagen_portada": "./image/first-man.jpg",
+      "imagen_portada": "assets/image/first-man.jpg",
       "lanzamiento": false,
       "popular": true,
       "tendencia": false,
@@ -55,7 +55,7 @@
       "slug": "deadpool",
       "titulo": "Deadpool",
       "sinopsis": "Lorem ipsum",
-      "imagen_portada": "./image/deadpool.png",
+      "imagen_portada": "assets/image/deadpool.png",
       "lanzamiento": true,
       "popular": false,
       "tendencia": false,
@@ -67,7 +67,7 @@
       "slug": "avengers-infinity-war",
       "titulo": "Avengers Infinity War",
       "sinopsis": "Lorem ipsum",
-      "imagen_portada": "./image/avengers-infinity-war.jpg",
+      "imagen_portada": "assets/image/avengers-infinity-war.jpg",
       "lanzamiento": true,
       "popular": true,
       "tendencia": false,
@@ -78,7 +78,7 @@
       "slug": "venom",
       "titulo": "Venom",
       "sinopsis": "Lorem ipsum",
-      "imagen_portada": "./image/venom.jpg",
+      "imagen_portada": "assets/image/venom.jpg",
       "lanzamiento": true,
       "popular": true,
       "tendencia": false,
@@ -89,7 +89,7 @@
       "slug": "jurassic-world",
       "titulo": "Jurassic World",
       "sinopsis": "Lorem ipsum",
-      "imagen_portada": "./image/jurassic-world.jpg",
+      "imagen_portada": "assets/image/jurassic-world.jpg",
       "lanzamiento": true,
       "popular": false,
       "tendencia": false,
@@ -100,7 +100,7 @@
       "slug": "incredibles",
       "titulo": "Incredibles",
       "sinopsis": "Lorem ipsum",
-      "imagen_portada": "./image/incredibles.jpg",
+      "imagen_portada": "assets/image/incredibles.jpg",
       "lanzamiento": true,
       "popular": true,
       "tendencia": true,

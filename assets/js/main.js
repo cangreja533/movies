@@ -13,12 +13,12 @@ jQuery(document).ready(function($) {
         `
       <div class="` + clase + `" style="background-image: url('` + value.imagen_banner + `');">
         <div class="row justify-content-start align-items-center">
-          <div class="col-md-6">
+          <div class="col-md-8">
             <div class="container-text-slider">
               <h2 class="title white">` + value.titulo + `</h2>
               <p class="white">` + value.sinopsis + `</p>
-              <button class="btn amarillo">Watch Now</button>
-              <button class="btn blanco">More info</button>
+              <button class="btn oscuro">Watch Now</button>
+              <button class="btn claro">More info</button>
             </div>
           </div>
         </div>
