@@ -40,8 +40,8 @@ jQuery(document).ready(function($) {
         data-recomendado='` + value.recomendado + `'>
         <div class="fondo">
           <h2 class="title white">` + value.titulo + `</h2>
-          <button class="btn amarillo">Watch Now</button>
-          <button class="btn blanco">More info</button>
+          <button class="btn oscuro">Watch Now</button>
+          <button class="btn claro">More info</button>
         </div>
       </div>
       `;

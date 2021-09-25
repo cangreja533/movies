@@ -27,7 +27,7 @@ body {
 }
 
 /* Menu */
-.navbar .container , .container { max-width: 75% }
+
 .navbar-brand img{ max-height: 45px;} 
 /*Menu*/
 #menu .navbar-nav { height: 76px;}
@@ -39,7 +39,6 @@ body {
 }
 .navbar-nav .nav-item{
   padding: 0 .5em;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,10 +87,24 @@ button {
 .btn:hover {
   color: var(--light);
 }
+button::-moz-focus-inner,
+input[type="color"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+    padding-block-start: 0px;
+    padding-inline-end: 0px;
+    padding-block-end: 0px;
+    padding-inline-start: 0px;
+    border: none;
+}
+
+
 .title {
   text-align: center;
   width: 100%;
   padding: 0 10px;
+  color: var(--light);
 }
 /*******************/
 
@@ -194,7 +207,7 @@ button {
   display: block;
   float: left;
   width: 30%;
-  height: 435px;
+  height: 520px;
   background-size: cover;
   margin-right: 1%;
   margin-bottom: 1%;
@@ -211,6 +224,7 @@ button {
   flex-flow: wrap;
   transition: opacity 0.3s ease-in;
 }
+.fondo button{ margin-right: 0px !important;}
 .item:hover .fondo{
   opacity: 1;
 }
